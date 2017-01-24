@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Hubl.in
+Comment=An easy and free VideoChat service.
+Type=Application
+Icon=hubl-in.png
+Exec=webapp-container --store-session-cookies --webappUrlPatterns=https?://hubl.in/*,https?://*.hubl.in/* https://hubl.in/ %u
+Terminal=false
+X-Ubuntu-Touch=true

@@ -1,0 +1,15 @@
+{
+    "name": "hubl-in.peter-bittner",
+    "description": "An easy and free VideoChat service.",
+    "architecture": "all",
+    "title": "hubl.in",
+    "hooks": {
+        "hubl-in": {
+            "apparmor": "hubl-in.apparmor",
+            "desktop": "hubl-in.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Peter Bittner <django@bittner.it>",
+    "framework": "ubuntu-sdk-15.04"
+}
